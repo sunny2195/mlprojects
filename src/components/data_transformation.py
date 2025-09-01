@@ -22,7 +22,7 @@ class DataTransformation:
 
     def get_data_transformer_object(self):
         try:
-            numerical_columns = ['writing_score', 'reading_score']  # <-- fixed here
+            numerical_columns = ['writing_score', 'reading_score']  
             categorical_columns = [
                 "gender",
                 "race_ethnicity",
